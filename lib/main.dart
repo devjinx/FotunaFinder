@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
+//title: MyApp
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+//Functions
 class RandomNumberPage extends StatefulWidget {
   @override
   _RandomNumberPageState createState() => _RandomNumberPageState();
@@ -26,6 +28,7 @@ class _RandomNumberPageState extends State<RandomNumberPage> {
     setState(() {
       _randomNumber = (random.nextInt(99) + 1).toString().padLeft(2, '0');
     });
+    //imput and output show in display
     showDialog(
       context: context,
       builder: (_) => AlertDialog(
