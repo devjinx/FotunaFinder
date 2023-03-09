@@ -26,6 +26,8 @@ step 2: go to lib/main.dart and run this script run is be flutter run lib/main.d
 
 step 3: You can use this project to test or watch my project and you can export to apk to use it in your phone application(I don't know how to export to apk and if you want to use apk please go to flutter.dev and read docs first url and docs you can see in this file)
 
+and you can make this application for good ux/ui this application haven't  been  good ux/ui and display don't beautiful
+
 //This project is opensource and you can use it but I own the project
 //Make by devjinx(Thanakorn Chareonlertkamol)
 
